@@ -1,0 +1,4 @@
+
+chromedriver.exe下載，請確認你目前Google Chrome瀏覽器版本，下載對應的版本
+然後放置到這裡
+https://chromedriver.chromium.org/downloads

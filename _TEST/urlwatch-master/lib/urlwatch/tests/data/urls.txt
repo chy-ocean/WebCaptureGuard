@@ -1,0 +1,63 @@
+
+# This is an example urls.txt file for urlwatch
+# Empty lines and lines starting with "#" are ignored
+
+https://i.ntust.edu.tw/student
+https://stuinfosys.ntust.edu.tw/NTUSTSSOServ/SSO/ChangePWD
+https://stuinfosys.ntust.edu.tw/NTUSTSSOServ/SSO/Login/CourseSelection
+https://querycourse.ntust.edu.tw/querycourse/
+https://interuniversity.ntust.edu.tw/
+https://cour01.ntust.edu.tw/DMP_student/
+https://ae.ntust.edu.tw/
+https://sp.cge.ntust.edu.tw/
+https://cardsystem.ntust.edu.tw/std/index.php/user/login
+https://sa.ntust.edu.tw/WebCounseling/
+https://sa.ntust.edu.tw/Dorm/
+https://student.ntust.edu.tw/p/405-1053-79878,c8400.php?Lang=zh-tw
+https://studentpay.ntust.edu.tw/
+https://sa.ntust.edu.tw/Scholarship/
+https://www.cc.ntust.edu.tw/p/412-1050-8352.php?Lang=zh-tw
+https://i.ntust.edu.tw/faculty
+https://i.ntust.edu.tw/AccountManagement/QueryAccountId
+https://i.ntust.edu.tw/AccountManagement/OldEmployeeRegistration
+https://i.ntust.edu.tw/NTUSTSSOServ/SSO/ChangePWD
+https://i.ntust.edu.tw/NTUSTSSOServ/SSO/Login/AuthorizeCode?ReturnUrl=%2fauthorizecode%2flogin.aspx
+https://querycourse.ntust.edu.tw/querycourse/#/
+https://attend.ntust.edu.tw/attend
+https://sp.cge.ntust.edu.tw/
+https://dss20.ntust.edu.tw/empregister/v3.aspx
+https://hreip1.ntust.edu.tw/EIP/Login/LoginNtust.resource.aspx
+https://tpro.ntust.edu.tw/Promotion/
+https://tpro.ntust.edu.tw/Award
+https://pa.ntust.edu.tw/Intranet/
+https://ccdoc.ntust.edu.tw/docmgsystem/login.aspx
+https://software.ntust.edu.tw/websoftware/login.aspx
+https://attend.ntust.edu.tw/place
+https://attend.ntust.edu.tw/meeting
+https://emp.ntust.edu.tw/abroadplan/login.aspx
+https://dss18.ntust.edu.tw/QryPay/
+https://dss18.ntust.edu.tw/Employee/tax_login.aspx
+https://dss18.ntust.edu.tw/employee/Pay_login.aspx
+https://dss20.ntust.edu.tw/pension/login.aspx
+https://property.ntust.edu.tw/
+https://hr.ntust.edu.tw/NTUSTEIP/
+https://pa.ntust.edu.tw/NTUSTEIP/
+https://hrm.ntust.edu.tw/EmployeePromotion/Account/login?ReturnUrl=%2fEmployeePromotion
+https://hirehr.ntust.edu.tw/ContractedStaff/
+https://dss21.ntust.edu.tw/PTAssis/
+https://cour01.ntust.edu.tw/DMP_Management/
+https://tea.ntust.edu.tw/tengage/Login.aspx?ReturnUrl=%2ftengage
+https://dss18.ntust.edu.tw/employee/Hinsu_login.aspx
+https://e-service.ntust.edu.tw/emp/index.aspx
+https://www.ntust.edu.tw/
+
+# You can use the pipe character to "watch" the output of shell commands
+|ls -al ~
+
+# If you want to use spaces in URLs, you have to URL-encode them (e.g. %20)
+http://example.org/With%20Spaces/
+
+# You can do POST requests by writing the POST data behind the URL,
+# separated by a single space character. POST data is URL-encoded.
+http://example.com/search.cgi button=Search&q=something&category=4
+
